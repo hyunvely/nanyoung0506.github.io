@@ -22,18 +22,16 @@
 </head>
 <body>
     <h1> 직원 관리 시스템 </h1>
-    <form action="emp_search.php" method="POST">
-        (1) 직원 번호 조회:
-        <input type="text" name="first_name" placeholder="first_name">
-        <input type="text" name="last_name" placeholder="last_name">
-        <input type="submit" value="Search">
-    </form>
+   
     <br>
     <form action="salary_info.php" method="GET">
-        (2) 연봉 정보: 
+        (1) 연봉 정보: 
         <input type="text" name="number" placeholder="number">
         <input type="submit" value="Search">
     </form>
+    <br>
+    <a href="salary_rank.php">(2) 연봉 순위 조회 </a>
+    <br>
     <br>
     <a href = "deptmanager.php"> (3) 부서 매니저 정보 조회 </a>
    
